@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 💡 ULTRA RARE EVENT : effet lampe torche + POP finale
-        if (Math.random() < 0.0005) {   // 0.05% = ULTRA RARE
+        if (Math.random() < 0.0001) {   // 0.05% = ULTRA RARE
             startFlashlightEvent(e.clientX, e.clientY);
         }
     });
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             popImageAt(mouseX, mouseY);
 
-        }, 50000);
+        }, 5000);
     }
 
     // ---------------------------------------------------
